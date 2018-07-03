@@ -1,0 +1,20 @@
+{
+  "name": "queaso-typescript",
+  "version": "1.5.0",
+  "description": "an exercices for learning simple TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "typescript",
+    "queasosystems"
+  ],
+  "author": "Ruben Haeck",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.4.0",
+    "typescript": "^2.9.2"
+  }
+}
