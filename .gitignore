@@ -37,3 +37,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Compiled JavaScript files from TypeScript
+src/app/**/*.js
+src/app/**/*.js.map
+main.js
+main.js.map

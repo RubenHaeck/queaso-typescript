@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>My first TypeScript web application</title>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="./systemjs.conf.js"></script>
+    <script>
+    System.import('main.js')
+      .then(result => console.log(result), console.error.bind(console));
+    </script>
+    <style>
+    html {
+      font-size: 14px;
+    }
+
+    @media(min-width: 768px){
+      html {
+        font-size:16px;
+      }
+    }
+
+    .border-top {
+      border-top: 1px solid #e5e5e5;
+    }
+
+    .border-bottom {
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .box-shadow {
+      box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    }
+    </style>
+  </head>
+  <body>
+    <!-- <header>My first Queaso webapplication with TypeScript and jQuery</header> -->
+    <!-- <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Queaso Systems</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Mission</a>
+        <a class="p-2 text-dark" href="#">History</a>
+      </nav></div>
+
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h3 class="pb-3 mb-4 font-italic border-bottom">From the company</h3>
+          <div>
+            <h4>List of employees</h4>
+            <form novalidate>
+              <div class="mb-3">
+                <label>Employees</label>
+                <select class="custom-select d-block w-100" id="employees" required>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main> -->
+
+  </body>
+</html>

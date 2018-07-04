@@ -4,7 +4,9 @@
   "description": "an exercices for learning simple TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -w",
+    "dev": "lite-server"
   },
   "keywords": [
     "npm",
@@ -14,7 +16,13 @@
   "author": "Ruben Haeck",
   "license": "MIT",
   "devDependencies": {
+    "@types/jquery": "^3.3.4",
     "lite-server": "^2.4.0",
     "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "systemjs": "^0.21.4"
   }
 }
